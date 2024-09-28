@@ -13,7 +13,7 @@ class Scheduler extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, AppRoutes.scheduler);
             },
-            child: Text('Confirmar agendamento')),
+            child: Text('Confirmar agendamento', style: TextStyle(fontSize: 30))),
       ),
     );
   }

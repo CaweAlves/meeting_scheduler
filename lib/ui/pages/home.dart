@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: ElevatedButton(
-          child: Text('Agendar horário'),
+          child: Text('Agendar horário', style: TextStyle(fontSize: 30)),
           onPressed: () {
             Navigator.pushNamed(context, AppRoutes.scheduler);
           },
